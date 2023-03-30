@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Inter', sans-serif;
+    background-color: #23252C;
+
+}
+
+nav {
+    margin-top: 44px;
+    margin-left: 54px;
+}
+
+.profil--icon {
+    width: 280px;
+}
+
+main {
+    background: #1A1B21;
+    text-align: center;
+    background-size: 280px;
+    position: absolute;
+    width: 280.3px;
+    height: 399px;
+    left: 53.8px;
+    top: 324px;
+}
+
+.main--first_title {
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.main--second_title {
+    margin-top: 6.19px;
+    font-weight: 400;
+    font-size: 12.8px;
+    color: #F3BF99;
+}
+
+.main--third_title {
+    margin-top: 8.81px;
+    font-weight: 400;
+    font-size: 10.24px;
+    color: #F5F5F5;
+}
+
+button {
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    top: 440px;
+    margin-bottom: 33px;
+    transition: transform .4s;
+}
+
+button:hover {
+    transform: scale(103%);
+}
+
+.btn_1 {
+    position: absolute;
+    left: 72px;
+    background: #FFFFFF;
+    background-image: url(./images/Mail.png);
+    background-repeat: no-repeat;
+    background-position: 26.5px 9px;
+    padding-left: 50px;
+    padding-bottom: 9px;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btn_2 {
+    position: absolute;
+    left: 208px;
+    background: #5093E2;
+    background-image: url(./images/linkedin.png);
+    background-repeat: no-repeat;
+    background-position: 16px 9px;
+    padding-left: 40px;
+    padding-bottom: 9px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #5093E2;
+}
+
+.contains {
+    position: relative;
+    margin-top: 178px;
+    margin-left: 70px;
+}
+
+.contains>h2 {
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contains>p {
+    color: #DCDCDC;
+    width: 247px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+.interests_title {
+    padding-top: 10px;
+}
+
+footer {
+    position: relative;
+    background: #161619;
+    height: 64px;
+    width: 280px;
+    left: 54px;
+    top: 36px;
+    border-radius: 0 0 6px 6px;
+}
+
+.footer--icon {
+    margin-top: 19px;
+    padding: 0 10px;
+    transition: transform 200ms;
+}
+
+footer img:first-child {
+    margin-left: 47px;
+}
+
+.footer--icon:hover {
+    transform: scale(104%);
+}
